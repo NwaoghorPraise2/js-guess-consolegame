@@ -14,6 +14,7 @@ let tryAgain = () => {
 }
 
 let restart = () => {
+    console.log(welcomeMessage);
     console.log("Let's do this again");
     points = 0;
     level = 1;
@@ -23,6 +24,8 @@ let restart = () => {
 }
 
 
+const welcomeMessage = "Welcome to Js Guessing Game. \n By Nwaoghor Praise for I4gxZuri Traning Cohort II 2022.\n I need you to follow the instuctions, thank you.";
+console.log(welcomeMessage);
 let username = prompt("Enter your name");
 while (checkCondition) {
   if (username) {
