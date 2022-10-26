@@ -8,13 +8,13 @@ let checkCondition = true;
 let userGuess = 0;
 
 //Reusegable Functions
-let tryAgain = () => {
+tryAgain = () => {
     console.log(`oops...,${username} you guessed wrong. Try Again\n`);
 }
 
 
 
-let restart = () => {
+restart = () => {
     console.log(welcomeMessage);
     console.log("Let's do this again");
     points = 0;
